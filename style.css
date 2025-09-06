@@ -2,7 +2,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 2rem;
-  background: linear-gradient(to bottom, #a0d4cf, #c6e2f5);
+  background: linear-gradient(to bottom,#c6e2f5, #c6e2f5);
   color: #1a1a1a;
 }
 
@@ -28,7 +28,7 @@ fieldset,
 }
 
 fieldset {
-  width: auto;
+  width: fit-content;
   border: 1px solid #ccc;
   padding: 1rem;
   background-color: #fdfdfd;
@@ -49,7 +49,8 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
+  transform: scale(1.05);
 }
 
 /* Error Text */
