@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
      //add or update profile
 document.getElementById("regForm").addEventListener("submit", function (e) {
   e.preventDefault();
+  document.getElementById("cancelBtn").addEventListener("click", () => {
+    document.getElementById("regForm").value = "";
 
   getFormData()
     .then(data => {
